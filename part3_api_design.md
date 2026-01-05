@@ -59,7 +59,7 @@ def low_stock_alerts(company_id):
         "alerts": alerts,
         "total_alerts": len(alerts)
     }
-
+```
 ---
 
 ## Edge Cases Handled
