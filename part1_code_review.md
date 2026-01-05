@@ -111,3 +111,15 @@ def create_product():
     except Exception:
         db.session.rollback()
         return {"error": "Internal server error"}, 500
+
+Why This Fix Works
+
+Ensures atomic operations
+
+Preserves data integrity
+
+Supports multiple warehouses
+
+Prevents duplicate SKUs
+
+Handles production failures gracefully
